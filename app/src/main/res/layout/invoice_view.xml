@@ -1,0 +1,25 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/invoiceViewTable"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dip"
+    android:stretchColumns="*">
+
+    <TableRow
+        android:id="@+id/tableView"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:padding="2dip"
+            android:text="@string/ID" />
+
+        <TextView
+            android:id="@+id/typeTextView"
+            android:padding="2dip"
+            android:text="Customer" />
+
+        <TextView
+            android:id="@+id/custSupTextView"
+            android:padding="2dip" />
+    </TableRow>
+</TableLayout>
